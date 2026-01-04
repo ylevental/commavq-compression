@@ -46,15 +46,4 @@ Decompression is ~128x slower than compression due to autoregressive token-by-to
 
 ## Author
 
-Yuval Levental - [yuvallevental.com](https://yuvallevental.com)
-```
-
----
-
-**Repository structure:**
-```
-commavq-compression/
-├── README.md
-├── compress.py        (from compress_final.py)
-├── decompress.py      (from decompress_final.py)
-└── arithmetic_coder.py
+Yuval Levental
