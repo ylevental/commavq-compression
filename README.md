@@ -163,7 +163,7 @@ Compression rate: 2.7
 | 6-bit quantization | +0.05x (if quality holds) |
 | Parallel GPU decompression | 3x faster decompress |
 
-## How It Works
+## How it Works
 
 ### Frame Predictor Architecture
 
@@ -205,6 +205,10 @@ Compressed bitstream + quantized model
 2. **Learned predictions**: Model captures driving video patterns
 3. **Efficient entropy coding**: ANS achieves near-optimal compression
 4. **Small model overhead**: 4.5MB model amortized over 960MB data
+
+### "Show me the Proof"
+
+<img width="727" height="217" alt="image" src="https://github.com/user-attachments/assets/b7dabfef-2be5-4a0b-a1c6-de9c000e4357" />
 
 ## License
 
