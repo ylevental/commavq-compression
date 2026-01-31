@@ -2,6 +2,8 @@
 
 Lossless compression of 5000 minutes of driving video tokens using a self-compressed neural predictor + arithmetic coding.
 
+Challenge homepage for reference: https://github.com/commaai/commavq
+
 ## Results
 
 | Metric | Value |
