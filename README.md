@@ -4,6 +4,8 @@ Lossless compression of 5000 minutes of driving video tokens using a self-compre
 
 Challenge homepage for reference: https://github.com/commaai/commavq
 
+Many thanks to Claude Opus 4.5 for assisting me!
+
 ## Results
 
 | Metric | Value |
