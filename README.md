@@ -209,7 +209,6 @@ Compressed bitstream + quantized model
 ### "Show me the Proof"
 
 <img width="727" height="217" alt="image" src="https://github.com/user-attachments/assets/b7dabfef-2be5-4a0b-a1c6-de9c000e4357" />
-
 ## License
 
 MIT
