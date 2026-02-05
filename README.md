@@ -1,6 +1,6 @@
 # CommaVQ Compression Challenge - 2.7x Solution
 
-Lossless compression of 5000 minutes of driving video tokens using a self-compressed neural predictor + arithmetic coding.
+Lossless compression of 5000 minutes of driving video tokens using a self-compressed neural predictor + ANS entropy coding.
 
 Challenge homepage for reference: https://github.com/commaai/commavq
 
@@ -24,7 +24,7 @@ Many thanks to Claude Opus 4.5 for assisting me!
 
 1. **Train a frame predictor** - Small transformer (5.3M params) that predicts all 128 tokens of a frame given 8 previous frames
 2. **Quantize the model** - 8-bit quantization + zlib compression (20MB → 4.5MB)
-3. **Arithmetic coding** - Use predictor probabilities with ANS entropy coding (constriction library)
+3. **ANS entropy coding** - Use predictor probabilities with ANS entropy coding (constriction library)
 
 The key insights: Predict the whole frame at once (not autoregressive within frame), making inference 128x faster than token-by-token approaches.  Also, model size must be part of the optimization—the 614MB GPT, despite its quality, is unsuitable.
 
