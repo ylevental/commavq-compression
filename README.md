@@ -163,7 +163,7 @@ Compression rate: 2.7
 | Use 16 context frames (not 8) | +0.1x |
 | Larger model (10-20M params) | +0.1-0.2x |
 | 6-bit quantization | +0.05x (if quality holds) |
-| Parallel GPU decompression | 3x faster decompress |
+| Parallel decompression on single GPU | 10x+ faster decompress (only ~220MB VRAM per stream) |
 
 ## How it Works
 
