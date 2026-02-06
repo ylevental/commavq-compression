@@ -43,7 +43,7 @@ Tested on 3x Tesla P40 (24GB each).
 - CUDA 12.1
 - GPU: Tesla P40 (Pascal)
 
-Expanding hardware/software compatibility (e.g., CPU inference, deterministic flags) is a planned improvement.
+Expanding hardware/software compatibility (e.g., CPU inference, deterministic flags) is a possible improvement.
 
 ## Files
 
