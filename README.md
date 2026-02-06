@@ -36,6 +36,15 @@ The key insights: Predict the whole frame at once (not autoregressive within fra
 
 Tested on 3x Tesla P40 (24GB each).
 
+**Note:** Neural decompression requires bit-identical probability distributions. Different GPU architectures, PyTorch versions, or CUDA versions can produce floating point differences that break lossless decoding. Currently verified on the following environment only:
+
+- Python 3.13.9
+- PyTorch 2.5.1
+- CUDA 12.1
+- GPU: Tesla P40 (Pascal)
+
+Expanding hardware/software compatibility (e.g., CPU inference, deterministic flags) is a planned improvement.
+
 ## Files
 
 ```
