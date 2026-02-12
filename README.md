@@ -26,7 +26,7 @@ Many thanks to Claude Opus 4.5 for assisting me!
 2. **Quantize the model** - 8-bit quantization + zlib compression (20MB → 4.5MB)
 3. **ANS entropy coding** - Use predictor probabilities with ANS entropy coding (constriction library)
 
-The key insights: Predict the whole frame at once (not autoregressive within frame), making inference 128x faster than token-by-token approaches.  Also, model size must be part of the optimization—the 614MB GPT, despite its quality, is unsuitable.
+The key insights: Predict the whole frame at once (not autoregressive within frame), making inference 128x faster than token-by-token approaches.  Also, model size must be part of the optimization-the 614MB GPT, despite its quality, is unsuitable.
 
 ## Hardware Requirements
 
